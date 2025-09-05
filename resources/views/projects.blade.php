@@ -1,4 +1,4 @@
-<x-layout title="projects">
+<x-layoutMe title="projects">
 <livewire:projects />
 
-</x-layout>
+</x-layoutMe>

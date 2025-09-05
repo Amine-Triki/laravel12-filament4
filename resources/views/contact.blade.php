@@ -1,4 +1,4 @@
-<x-layout title="Contact">
+<x-layoutMe title="Contact">
 
 
     <section class="text-center py-5" id="Contact">
@@ -120,4 +120,4 @@
 
 
 
-</x-layout>
+</x-layoutMe>

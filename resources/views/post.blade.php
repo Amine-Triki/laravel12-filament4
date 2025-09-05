@@ -1,4 +1,4 @@
-<x-layout :title="$post->title">
+<x-layoutMe :title="$post->title">
     <section class="container mx-auto px-4 py-8">
         <article class="bg-white rounded-2xl shadow p-6 mb-8">
             @if($post->image_url)
@@ -63,4 +63,4 @@
             </div>
         @endauth
     </section>
-</x-layout>
+</x-layoutMe>

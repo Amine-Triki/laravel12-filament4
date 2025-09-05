@@ -1,6 +1,6 @@
 @php use Illuminate\Support\Str; @endphp
 
-<x-layout :title="'Category: ' . $category->name">
+<x-layoutMe :title="'Category: ' . $category->name">
     <section class="container mx-auto px-4 py-8">
         <h1 class="text-2xl font-bold mb-6">Category: {{ $category->name }}</h1>
 
@@ -24,4 +24,4 @@
             @endforeach
         </div>
     </section>
-</x-layout>
+</x-layoutMe>

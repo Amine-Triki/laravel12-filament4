@@ -1,4 +1,4 @@
-<x-layout title="blog">
+<x-layoutMe title="blog">
     <article class="flex flex-col items-center justify-center gap-10 p-6">
         <p class="text-2xl"> Welcome to blog Amine Triki. With My Best Wishes That You Take Advantage Of It </p>
     </article>
@@ -35,4 +35,4 @@
             @endforeach
         </div>
     </section>
-</x-layout>
+</x-layoutMe>

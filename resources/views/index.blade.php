@@ -1,4 +1,4 @@
-<x-layout title="Home">
+<x-layoutMe title="Home">
 
     <head>
         <style>
@@ -115,4 +115,4 @@
                 class="w-72 sm:w-80 md:w-96 lg:w-[430px] rounded-2xl shadow-lg object-cover object-top">
         </section>
     </article>
-</x-layout>
+</x-layoutMe>
