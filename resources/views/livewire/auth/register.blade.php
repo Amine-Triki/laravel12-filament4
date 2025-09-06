@@ -8,7 +8,7 @@ use Illuminate\Validation\Rules;
 use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
 
-new #[Layout('components.layouts.auth')] class extends Component {
+new #[Layout('components.layoutMe' , ['title' => 'register'])] class extends Component {
     public string $name = '';
     public string $email = '';
     public string $password = '';
@@ -34,6 +34,7 @@ new #[Layout('components.layouts.auth')] class extends Component {
         $this->redirectIntended(route('dashboard', absolute: false), navigate: true);
     }
 }; ?>
+    <div class="bg-background flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
 
 <div class="flex flex-col gap-6">
     <x-auth-header :title="__('Create an account')" :description="__('Enter your details below to create your account')" />
@@ -97,3 +98,4 @@ new #[Layout('components.layouts.auth')] class extends Component {
         <flux:link :href="route('login')" wire:navigate>{{ __('Log in') }}</flux:link>
     </div>
 </div>
+    </div>
