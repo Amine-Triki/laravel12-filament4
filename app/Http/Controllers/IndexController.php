@@ -7,22 +7,24 @@ use App\Models\Post;
 
 class IndexController extends Controller
 {
-      function index()
+    function index()
     {
         return view('index');
     }
 
     function blog()
     {
-            $posts = Post::with('category')->latest()->get();
-    return view('blog', compact('posts'));
+        /* $posts = Post::with('category')->latest()->get(); */
+        $posts = Post::published()->with('category')->latest()->get();
+
+        return view('blog', compact('posts'));
     }
 
     function contact()
     {
         return view('contact');
     }
-        function projects()
+    function projects()
     {
         return view('projects');
     }

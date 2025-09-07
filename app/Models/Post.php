@@ -45,7 +45,7 @@ class Post extends Model
         return $this->hasMany(Comment::class);
     }
 
-
+// تعيين user_id تلقائياً عند إنشاء المقال
     protected static function booted()
     {
         static::creating(function ($post) {
@@ -54,8 +54,14 @@ class Post extends Model
             }
         });
     }
+// إضافة scope للمقالات المنشورة فقط
+public function scopePublished($query)
+{
+    return $query->where('status', 'published');
+}
 
 
+// توليد slug تلقائياً من العنوان عند الإنشاء
     protected static function boot()
     {
         parent::boot();
