@@ -8,8 +8,9 @@
             @foreach ($posts as $post)
                 <div class="bg-white rounded-2xl shadow p-4 flex flex-col">
                     {{-- صورة المقال --}}
-                    @if($post->image_url)
-                        <img src="{{ asset($post->image_url) }}" alt="{{ $post->title }}" class="rounded-xl mb-3 w-full h-48 object-cover">
+                    @if ($post->image_url)
+                        <img src="{{ asset($post->image_url) }}" alt="{{ $post->title }}"
+                            class="rounded-xl mb-3 w-full h-48 object-cover">
                     @endif
 
                     {{-- العنوان --}}
@@ -22,14 +23,23 @@
 
                     {{-- معلومات إضافية --}}
                     <div class="text-xs text-gray-500 flex justify-between items-center mt-auto">
-                        <span>{{ $post->category->name ?? 'Uncategorized' }}</span>
+                        @if ($post->category)
+                            <a href="{{ route('category.show', $post->category->slug) }}" target="_blank"
+                                rel="noopener noreferrer
+                                class="text-indigo-600
+                                hover:underline">
+                                {{ $post->category->name }}
+                            </a>
+                        @else
+                            <span>Uncategorized</span>
+                        @endif
                         <span>{{ $post->created_at->format('M d, Y') }}</span>
                     </div>
 
                     {{-- زر اقرأ المزيد --}}
-                    <a href="{{ url('/post/'.$post->slug) }}"
-                       class="mt-3 text-indigo-600 hover:underline font-medium text-sm">
-                       Read More →
+                    <a href="{{ url('/post/' . $post->slug) }}"
+                        class="mt-3 text-indigo-600 hover:underline font-medium text-sm">
+                        Read More →
                     </a>
                 </div>
             @endforeach
