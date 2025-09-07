@@ -2,7 +2,7 @@
     <section class="container mx-auto px-4 py-8">
         <article class="bg-white rounded-2xl shadow p-6 mb-8">
             @if($post->image_url)
-                <img src="{{ $post->image_url }}" alt="{{ $post->title }}" class="rounded-xl mb-4 w-full h-64 object-cover">
+                <img  src="{{ $post->image_url }}" alt="{{ $post->title }}" class="rounded-xl mb-4 w-[300] h-auto mx-auto object-cover">
             @endif
 
             <h1 class="text-3xl font-bold mb-2">{{ $post->title }}</h1>
