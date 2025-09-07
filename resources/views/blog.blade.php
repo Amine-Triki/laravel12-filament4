@@ -9,7 +9,7 @@
                 <div class="bg-white rounded-2xl shadow p-4 flex flex-col">
                     {{-- صورة المقال --}}
                     @if($post->image_url)
-                        <img src="{{ asset('storage/'.$post->image_url) }}" alt="{{ $post->title }}" class="rounded-xl mb-3 w-full h-48 object-cover">
+                        <img src="{{ asset($post->image_url) }}" alt="{{ $post->title }}" class="rounded-xl mb-3 w-full h-48 object-cover">
                     @endif
 
                     {{-- العنوان --}}

@@ -8,9 +8,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
 
+use Illuminate\Support\Facades\Auth;
+
 class Post extends Model
 {
-       use HasFactory, SoftDeletes;
+    use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'category_id',
@@ -22,7 +24,7 @@ class Post extends Model
         'status'
     ];
 
-        protected $appends = ['image_url'];
+    protected $appends = ['image_url'];
 
     public function getImageUrlAttribute(): ?string
     {
@@ -44,13 +46,23 @@ class Post extends Model
     }
 
 
+    protected static function booted()
+    {
+        static::creating(function ($post) {
+            if (Auth::check()) {
+                $post->user_id = Auth::id();
+            }
+        });
+    }
+
+
     protected static function boot()
-{
-    parent::boot();
+    {
+        parent::boot();
         static::creating(function ($post) {
             if (empty($post->slug)) {
                 $post->slug = Str::slug($post->title);
             }
         });
-}
+    }
 }
