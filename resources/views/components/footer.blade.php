@@ -12,7 +12,7 @@
                 <div class="flex space-x-4">
 
                     <!-- Facebook -->
-                    <a href="#" class="hover:text-blue-500" aria-label="Facebook">
+                    <a href="https://www.facebook.com/amine.triki.1998" class="hover:text-blue-500" aria-label="Facebook">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
                             <path d="M22.675 0h-21.35C0.597 0 0 0.597 0 1.325v21.351C0
                      23.403 0.597 24 1.325 24H12.82v-9.294H9.692V11.41h3.128
@@ -24,7 +24,7 @@
                     </a>
 
                     <!-- LinkedIn -->
-                    <a href="#" class="hover:text-blue-400" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/amine-triki-tn/" class="hover:text-blue-400" aria-label="LinkedIn">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
                             <path d="M20.447 20.452H16.86v-5.569c0-1.328-.027-3.037-1.852-3.037
                      -1.853 0-2.137 1.445-2.137 2.939v5.667H9.284V9h3.431v1.561h.049
@@ -35,7 +35,7 @@
                     </a>
 
                     <!-- GitHub -->
-                    <a href="#" class="hover:text-gray-400" aria-label="GitHub">
+                    <a href="https://github.com/Amine-Triki" class="hover:text-gray-400" aria-label="GitHub">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
                             <path d="M12 .297c-6.63 0-12 5.373-12 12
                      0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577
@@ -55,7 +55,7 @@
                     </a>
 
                     <!-- YouTube -->
-                    <a href="#" class="hover:text-red-500" aria-label="YouTube">
+                    <a href="https://www.youtube.com/@aminetrikitv" class="hover:text-red-500" aria-label="YouTube">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
                             <path d="M23.498 6.186a2.974 2.974 0 00-2.092-2.103C19.529
                      3.5 12 3.5 12 3.5s-7.529 0-9.406.583A2.974 2.974
@@ -68,39 +68,6 @@
                         </svg>
                     </a>
 
-                    <!-- Instagram -->
-                    <a href="#" class="hover:text-pink-400" aria-label="Instagram">
-                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062
-                     2.633.342 3.608 1.317.975.975 1.255 2.242
-                     1.317 3.608.058 1.266.07 1.646.07 4.842s-.012
-                     3.576-.07 4.842c-.062 1.366-.342 2.633-1.317
-                     3.608-.975.975-2.242 1.255-3.608 1.317-1.266.058-1.646.07-4.85.07s-3.584-.012
-                     -4.85-.07c-1.366-.062-2.633-.342-3.608-1.317-.975-.975-1.255-2.242
-                     -1.317-3.608C2.175 15.576 2.163 15.196 2.163
-                     12s.012-3.576.07-4.842c.062-1.366.342-2.633
-                     1.317-3.608.975-.975 2.242-1.255 3.608-1.317
-                     1.266-.058 1.646-.07 4.85-.07zm0 1.837c-3.17
-                     0-3.552.012-4.796.07-1.042.048-1.61.218-1.986.364a3.17
-                     3.17 0 00-1.153.753 3.17 3.17 0 00-.753
-                     1.153c-.146.376-.316.944-.364 1.986-.058
-                     1.244-.07 1.626-.07 4.796s.012 3.552.07
-                     4.796c.048 1.042.218 1.61.364 1.986.2.51.442.884.753
-                     1.153.269.311.643.553 1.153.753.376.146.944.316
-                     1.986.364 1.244.058 1.626.07 4.796.07s3.552-.012
-                     4.796-.07c1.042-.048 1.61-.218 1.986-.364a3.17
-                     3.17 0 001.153-.753 3.17 3.17 0 00.753-1.153c.146-.376.316-.944.364-1.986.058
-                     -1.244.07-1.626.07-4.796s-.012-3.552-.07-4.796c-.048
-                     -1.042-.218-1.61-.364-1.986a3.17 3.17 0 00-.753-1.153 3.17
-                     3.17 0 00-1.153-.753c-.376-.146-.944-.316-1.986-.364-1.244
-                     -.058-1.626-.07-4.796-.07zm0 3.905a5.932 5.932
-                     0 110 11.864 5.932 5.932 0 010-11.864zm0
-                     9.797a3.865 3.865 0 100-7.73 3.865 3.865
-                     0 000 7.73zm6.406-10.845a1.386 1.386
-                     0 110-2.772 1.386 1.386 0 010 2.772z" />
-                        </svg>
-                    </a>
-
                 </div>
             </div>
 
@@ -108,11 +75,10 @@
             <div>
                 <h3 class="font-semibold text-lg mb-4">Helpful Links</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="hover:underline">Home</a></li>
-                    <li><a href="#" class="hover:underline">Blog</a></li>
-                    <li><a href="#" class="hover:underline">Contact</a></li>
-                    <li><a href="#" class="hover:underline">Projects</a></li>
-                    <li><a href="#" class="hover:underline">Skills</a></li>
+                    <li><a href="/" class="hover:underline">Home</a></li>
+                    <li><a href="/blog" class="hover:underline">Blog</a></li>
+                    <li><a href="/contact" class="hover:underline">Contact</a></li>
+                    <li><a href="/projectsg" class="hover:underline">Projects</a></li>
                 </ul>
             </div>
 
@@ -120,9 +86,9 @@
             <div>
                 <h3 class="font-semibold text-lg mb-4">Account</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="hover:underline">Sign In</a></li>
-                    <li><a href="#" class="hover:underline">Sign Up</a></li>
-                    <li><a href="#" class="hover:underline">Hire Me</a></li>
+                    <li><a href="/login" class="hover:underline">Sign In</a></li>
+                    <li><a href="/register" class="hover:underline">Sign Up</a></li>
+                    <li><a href="https://www.freelancer.com/u/Mramis?sb=t&frm=Mramis" class="hover:underline">Hire Me</a></li>
                 </ul>
             </div>
 
@@ -130,8 +96,8 @@
             <div>
                 <h3 class="font-semibold text-lg mb-4">Legal</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
-                    <li><a href="#" class="hover:underline">Terms of Service</a></li>
+                    <li><a href="/404" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="/404" class="hover:underline">Terms of Service</a></li>
                 </ul>
             </div>
 
@@ -139,6 +105,6 @@
 
         <!-- Bottom -->
         <div class="mt-10 text-center text-sm text-gray-400">
-            &copy; <?= date('Y') ?>  -- 2025 All rights reserved.
+            &copy; <?= date('Y') ?> -- 2025 All rights reserved.
         </div>
     </footer>
